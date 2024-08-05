@@ -1,0 +1,26 @@
+.season-2024 {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('../../assets/images/temp_2024.png') no-repeat center center/cover;
+  }
+  
+  .overlay-2024 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 40px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  #temp2024-h1 {
+    margin: 0;
+    font-size: 100px;
+    margin-top: 40px;
+  }
+  

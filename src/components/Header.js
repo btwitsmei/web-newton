@@ -1,39 +1,35 @@
 import React from 'react';
-import { BiSolidCart } from "react-icons/bi";
-import { BiSolidReceipt } from "react-icons/bi";
-import { BiSolidUser } from "react-icons/bi";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import './Header.css';
+import logo from '../assets/images/logo.png'; // Asegúrate de que la ruta sea correcta
 
-import logo from "../assets/images/logo.png";
-import "./Header.css";
-
-const Navbar = () => {
-    return (
-      <nav className="navbar">
-        <div className="navbar-container">
-          <div className="logo-container">
-            <img src={logo} alt="Logo Iguanas" className="logo" />
-            <div className="logo-text">
-              <span>NEWTON</span>
-              <span>IGUANAS</span>
-            </div>
-          </div>
-          <ul className="nav-links">
-            <li><a href="#inicio">INICIO</a></li>
-            <li><a href="#nosotros">NOSOTROS</a></li>
-            <li><a href="#staff">STAFF</a></li>
-            <li className="dropdown">
-              <a href="#temporadas" className="dropbtn">TEMPORADAS</a>
-              <div className="dropdown-content">
-                <a href="#2023">2023</a>
-                <a href="#2024">2024</a>
+const Header = ({ view }) => {
+  return (
+    <header>
+      <div className="navbar">
+        <Link to="/">
+          <img src={logo} alt="Newton Iguanas Logo" className="logo" />
+        </Link>
+        <nav>
+          <ul>
+            <li><Link to="/">INICIO</Link></li>
+            <li><Link to="/nosotros">NOSOTROS</Link></li>
+            <li><Link to="/staff">STAFF</Link></li>
+            <li>
+              <div className="dropdown">
+                <button className="dropbtn">TEMPORADAS</button>
+                <div className="dropdown-content">
+                  <Link to="/2023">2023</Link>
+                  <Link to="/2024">2024</Link>
+                </div>
               </div>
             </li>
-            <li><a href="#contactanos">CONTÁCTANOS</a></li>
+            <li><Link to="/contacto">CONTÁCTANOS</Link></li>
           </ul>
-        </div>
-      </nav>
-    );
-  };
-  
-  export default Navbar;
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
