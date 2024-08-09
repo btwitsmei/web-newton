@@ -1,0 +1,130 @@
+.temp2023 {
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay2023 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-arrow-box h2 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .arrow-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid white;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #064e3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text-section {
+    color: white;
+    max-width: 50%;
+  }
+  
+  .logo-container {
+    position: relative;
+  }
+  
+  .logo-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .trophy-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1;
+  }
+  
+  .trophy-image {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .additional-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contact {
+    position: relative;
+    padding: 20px;
+    background-color: #064e3b;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+  }
+  
+  .contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-info h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  

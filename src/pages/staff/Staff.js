@@ -1,21 +1,16 @@
 import React from "react";
-//import { useNavigate } from "react-router-dom";
-import './Home.css';
+import './Staff.css';
 
-import homeImg from '../../assets/images/home1.png';
+import staffImg from '../../assets/images/staff.png';
 import siguenosImage1 from '../../assets/images/siguenos_img1.png';
 import siguenosImage2 from '../../assets/images/siguenos_img2.png';
 import logo from '../../assets/images/logo.png';
 import contactImg from '../../assets/images/contacto.png';
-import nosotrosIcon from "../../assets/images/nosotros_icon.png";
-import staffIcon from "../../assets/images/staff_icon.png"
-import tempIcon from "../../assets/images/temp_icon.png"
-import contactIcon from "../../assets/images/contact_icon.png"
 
 
-export default function Home() {
+export default function Staff() {
 
-    //const navigate = useNavigate();
+
 
     return (
         <div className='content'>
@@ -23,38 +18,23 @@ export default function Home() {
           <main className="main-content">
             <section className="carrusel">
               <div className="image-container">
-                <img src={homeImg} alt="Carrusel de imágenes" className="carousel-image" />
+                <img src={staffImg} alt="Carrusel de imágenes" className="carousel-image" />
                 <div className="overlay">
-                  <h2>Rompemos barreras, superamos expectativas.</h2>
-                  <button className="about-button">Sobre nosotros</button>
+                  <h2>El deporte es un medio fundamental para transmitir valores.</h2>
+                  <button className="about-button">Conócenos</button>
                 </div>
               </div>
               </section>
-              <div class="button-bar">
-        <a href="#nosotros" class="button">
-            <img src={nosotrosIcon} alt="Nosotros"/>
-            Nosotros
-        </a>
-        <a href="#staff" class="button">
-            <img src={staffIcon} alt="Staff"/>
-            Staff
-        </a>
-        <a href="#temporadas" class="button">
-            <img src={tempIcon} alt="Temporadas"/>
-            Temporadas
-        </a>
-        <a href="#contacto" class="button">
-            <img src={contactIcon} alt="Contacto"/>
-            Contacto
-        </a>
-    </div>
 
 <section className="second-section">
   <div className="second-overlay">
-    <h2>FILOSOFÍA IGUANAS</h2>
+    <p>JEFA DE DEPORTES</p>
+    <h2>
+    ELAIS UGARTE</h2>
     <p>
-      Alineamos metodología deportiva con el desarrollo integral del ser humano,
-      para así formar niñas, niños y jóvenes con valores y en constante evolución deportiva.
+    xperiencia de la Srta. Ugarte abarca diversas áreas clave para
+el desarrollo y la gestion de
+nuestros programas deportivos. Elais ha recibido formación de la National Interscholastic Athletic Administrators Association
     </p>
   </div>
   </section>
