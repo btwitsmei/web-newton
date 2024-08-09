@@ -1,0 +1,107 @@
+
+
+.jefa-section {
+    background-color: #07552f;
+    color: white;
+    text-align: center;
+    
+}
+
+.jefa-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/jefa.png') no-repeat center center;
+    height: 600px;
+}
+
+
+
+.torneos-section {
+  background-color: #078a4a;
+  color: white;
+  text-align: center;
+  
+}
+
+.torneos-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/torneos.png') no-repeat center center;
+  height: 600px;
+}
+
+
+.caa-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+  
+}
+
+.caa-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/caa.png') no-repeat center center;
+  height: 800px;
+}
+
+.abd-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+  
+}
+
+.abd-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/abd.png') no-repeat center center;
+  height: 800px;
+}
+
+.df-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+}
+
+.df-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/df.png') no-repeat center center;
+  height: 700px;
+  
+}
+
+.fg-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+}
+
+.fg-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/fg.png') no-repeat center center;
+  height: 900px;
+  
+}
+
+.nrt-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+}
+
+.nrt-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/nrt.png') no-repeat center center;
+  height: 800px;
+  
+}
+.tv-section {
+  background-color: #07552f;
+  color: white;
+  text-align: center;
+}
+
+.tv-content {
+  font-size: 2.5em;
+  background: url('../../assets/pages/tv.png') no-repeat center center;
+  height: 700px;
+  
+}

@@ -25,25 +25,30 @@ export default function Home() {
               <div className="image-container">
                 <img src={homeImg} alt="Carrusel de imágenes" className="carousel-image" />
                 <div className="overlay">
-                  <h2>Rompemos barreras, superamos expectativas.</h2>
-                  <button className="about-button">Sobre nosotros</button>
+                  <h2>Rompemos barreras, superamos expectativas.</h2><br/>
+
+                  <a href="/nosotros" class="button" className="about-button">
+           
+                  Sobre nosotros
+        </a>
+                  
                 </div>
               </div>
               </section>
               <div class="button-bar">
-        <a href="#nosotros" class="button">
+        <a href="/nosotros" class="button">
             <img src={nosotrosIcon} alt="Nosotros"/>
             Nosotros
         </a>
-        <a href="#staff" class="button">
+        <a href="/staff" class="button">
             <img src={staffIcon} alt="Staff"/>
             Staff
         </a>
-        <a href="#temporadas" class="button">
+        <a href="/2024" class="button">
             <img src={tempIcon} alt="Temporadas"/>
             Temporadas
         </a>
-        <a href="#contacto" class="button">
+        <a href="/contacto" class="button">
             <img src={contactIcon} alt="Contacto"/>
             Contacto
         </a>
@@ -62,9 +67,11 @@ export default function Home() {
           <section className="siguenos">
             <h2>¡SÍGUENOS!</h2>
             <div className="images-container">
-              <img src={siguenosImage1} alt="Siguénos Imagen 1" />
+              <img src={siguenosImage1} alt="Siguénos Imagen 1" /></div>
+              <br/>
+              <div className="images-container">
               <img src={siguenosImage2} alt="Siguénos Imagen 2" />
-            </div>
+            </div><br/>
             <div className="instagram">
               <p>@newtoniguanas</p>
             </div>

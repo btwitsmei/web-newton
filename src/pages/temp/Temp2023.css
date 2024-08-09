@@ -40,91 +40,80 @@
     border-top: 20px solid white;
   }
   
-  .container {
-    padding: 20px;
-    background-color: #064e3b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .text-section {
+  .trofeo-section {
+    background-color: #07552f;
     color: white;
-    max-width: 50%;
-  }
-  
-  .logo-container {
-    position: relative;
-  }
-  
-  .logo-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.2;
-    z-index: 0;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .trophy-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 1;
-  }
-  
-  .trophy-image {
-    width: 100px;
-    margin-bottom: 10px;
-  }
-  
-  .additional-images {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .logo-image {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-  }
-  
-  .contact {
-    position: relative;
-    padding: 20px;
-    background-color: #064e3b;
-  }
-  
-  .background-image img {
-    width: 100%;
-    height: auto;
-    opacity: 0.5;
-  }
-  
-  .contact-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+  }
+  
+  .trofeo-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/trofeo.png') no-repeat center center;
+    height: 600px;
+    
+  }
+
+  .one-section {
+    background-color: #85974f;
     color: white;
+    text-align: center;
   }
   
-  .contact-info h2 {
-    margin: 0;
-    font-size: 24px;
+  .one-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/1.png') no-repeat center center;
+    height: 700px;
+    
+  }
+
+  .two-section {
+    background-color: #078a4a;
+    color: white;
+    text-align: center;
   }
   
-  .contact-info p {
-    margin: 5px 0;
+  .two-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/2.png') no-repeat center center;
+    height: 700px;
+    
+  }
+
+  .tre-section {
+    background-color: #07552f;
+    color: white;
+    text-align: center;
   }
   
+  .tre-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/3.png') no-repeat center center;
+    height: 750px;
+    
+  }
+
+  .four-section {
+    background-color: #85974f;
+    color: white;
+    text-align: center;
+  }
+  
+  .four-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/4.png') no-repeat center center;
+    height: 900px;
+    
+  }
+
+  .cinc-section {
+    background-color: #0d9553;
+    color: white;
+    text-align: center;
+  }
+  
+  .cinc-content {
+    font-size: 2.5em;
+    background: url('../../assets/pages/new/5.png') no-repeat center center;
+    height: 850px;
+    
+  }
